@@ -1,0 +1,72 @@
+
+body
+{
+    background: url('city-4340541.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+    
+}
+
+.container h1
+{
+    font-family: 'Baloo 2', cursive;
+    margin: 5px 10px;
+    color: black;
+}
+.infocontainer
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.box input
+{
+    background: none;
+    border: none;
+    border-bottom: 2px solid black;
+    margin: 2px auto;
+    padding: 5px 10px;
+    width: 100%;
+    outline: none;
+    font-size: 17px;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 950;
+    color: white;
+}
+
+.box input ::placeholder
+{
+    color: white;
+}
+
+button
+{
+    margin: 10px;
+    padding: 3px 5px;
+    width: 90px;
+    font-size: 17px;
+    border-radius: 2px solid black;
+    font-family: 'Baalo 2';
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover
+{
+    transform: scale(1.1);
+    font-weight: bold;
+}
